@@ -126,19 +126,71 @@ h2 {
 
 .quote .container {
     background: #E5E7EB;
-    height: 200px;
-}
-
-.container p:first-child {
-    color: black;
+    height: 350px;
+    margin: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container p {
+.container p:first-child {
     color: black;
+    width: 500px;
+    line-height: normal;
+    font-size: 36px;
+   
+}
+
+.container p:nth-child(2) {
+    color: black;
+    align-self: flex-end;
+}
+/*-------------------------------------------------*/
+
+section .cta {
+    display: flex;
+    background: white;
+    color: white;
+
+}
+
+.cta .container {
+    background: #3882F6;
+    width: 800px;
+    height: 150px;
+    margin: 20px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+}
+
+.cta p:first-child {
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.cta p:nth-child(2) {
+    color: white;
+    font-size: 12px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*-------------------------------------------------*/
+
+footer {
+    background: #1F2937;
+    color: white;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
